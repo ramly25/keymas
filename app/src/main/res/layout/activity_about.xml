@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo1" />
+
+            <TextView
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="WA BLACK"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="20dp"
+                android:text="WhatsApp adalah sebuah aplikasi pesan lintas platform yang memungkinkan kita bertukar pesan teks, suara, foto, maupun video. Dengan WhatsApp kamu juga bisa melakukan panggilan suara dan video. Semua fasilitas yang ditawarkan WhatsApp bisa kamu dapatkan secara gratis.
+
+Tapi, pernah nggak kamu bosan dengan tema bawaan WhatsApp yang nggak bisa diganti-ganti? Fitur mengganti tema memang nggak disediakan secara resmi oleh pihak WhatsApp. Tapi, Jaka akan kasih tahu kamu cara mudah ganti tema WhatsApp tanpa root. Hanya dengan menginstal WhatsApp Plus, kamu sudah bisa modifikasi whatsApp di smartphone-mu dengan berbagai pilihan tema yang menarik!" />
+
+
+            <Button
+                android:id="@+id/lanjutInstruksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lanjut Instruksi" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="20dp"
+                android:text="\n \n \n \n" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/adMobView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/logo1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:text="INSTRUKSI" />
+
+            <TextView
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="Link download : (Silahkan Copy dan buka di browser !)" />
+
+            <TextView
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textIsSelectable="true"
+                android:text="https://intip.in/MAfp" />
+
+            <TextView
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sebelum menginstal WA BLACK, jangan lupa backup semua chat WhatsApp kamu terlebih dahulu. Caranya, masuk ke menu settings > Chats > Chat Backup, pilih Back Up." />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/g1"
+                />
+
+            <TextView
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Setelah semua chat WhatsAppmu berhasil di-backup, unistall WhatsApp original yang ada di smartphone kamu. Instal WA BLACK" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/g2"
+                />
+
+            <TextView
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Setelah WhatsApp Plus Mod Apk berhasil kamu instal, silakan buka dan login ulang menggunakan nomor telepon yang kamu gunakan sebelumnya." />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/g3"
+                />
+
+            <TextView
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Kalau kamu mau mengembalikan riwayat chat WhatsApp sebelumnya, jangan lupa Restore backup chat kamu." />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/g4"
+                />
+
+            <TextView
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Setelah melakukan tahapan-tahapan tadi, maka WhatsApp Plus pun siap digunakan." />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/awal"
+                />
+
+            <TextView
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Selanjutnya, tinggal pilih tema WhatsApp yang kamu inginkan, klik Apply dan kamu sudah bisa menggunakan WhatsApp dengan tema favorit kamu." />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/g6"
+                />
+
+            <TextView
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:text="Link download : (Silahkan Copy dan buka di browser !)" />
+
+            <TextView
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textIsSelectable="true"
+                android:text="https://intip.in/MAfp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="20dp"
+                android:text="\n \n \n \n" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/adMobView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
